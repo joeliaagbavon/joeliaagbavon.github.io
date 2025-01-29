@@ -1,0 +1,280 @@
+/* General Styles */
+body {
+    margin: 0;
+}
+
+/* Nav Styles */
+nav {
+    background-color: #cce09e;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav p, nav a {
+   color: black;
+ 
+}
+
+nav a {
+   color:rgb(112, 21, 197);
+   font-weight:700;
+   
+}
+
+nav a:hover {
+color:red;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #cce09e;
+    padding:10px;
+    justify-content: center;
+}
+
+footer a {
+color:black;
+}
+
+footer a:hover {
+    color:red;
+}
+
+/* Splash Section */
+.splash {
+  display:flex;
+  align-items:center;
+  padding:20px;
+  background-color: antiquewhite;
+  justify-content: center;
+
+}
+.splash h1 {
+    
+        font-family: "Bodoni Moda SC", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        color: #194d34;
+        margin-top:0;
+       align-self: baseline;
+
+
+      
+}
+
+.splash img {
+   flex-shrink:0;
+   width: 130px;
+   height:130px;
+    border-radius: 50%;
+    border:2px solid #cce09e;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.splash-info 
+{
+    display: flex; 
+    flex-direction: column;
+    border: 2px solid;
+    padding: 20px;
+    height: auto;
+    width: 1000px;
+    background-color:#cce09e;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    border: 1px solid #ccc; 
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+align-items: center;
+justify-content: center;
+
+   
+}
+
+.splash p {
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #194d34;
+    align-items:baseline;
+  
+}
+
+/* Horizontal Rules */
+hr {
+    border-color:#194d34;
+    border-style:dashed;
+    margin:0;
+}
+
+/* Sections */
+section {
+display:grid;
+grid-template-columns: 1fr;
+padding:20px;
+border: 1px solid #ccc;
+padding: 10px;
+border-color: #cce09e;
+background-color: antiquewhite;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+
+/* Section Headings */
+section h2 {
+    margin-top:0;
+    font-family: "Bodoni Moda SC", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        color: #194d34;
+}
+
+/* Paragraph Styles */
+section p {
+    margin-top: 5px;
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* link styles */
+section a {
+    color: #0d5db3; 
+    text-decoration: none;
+}
+section a:hover {
+    color:red; 
+    text-decoration: underline;
+    
+}
+
+/* List Styles */
+ul {
+    margin-top: 5px;
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+dl {
+    margin-top: 5px;
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+dl dt{
+    margin-top: 5px;
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+dl dd{
+    margin-top: 5px;
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Project Section */
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:10px;
+   
+
+}
+.full-width {
+    grid-column: 1/ -1; 
+    margin-bottom: 0;
+}
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: whitesmoke;
+
+
+}
+
+.card img {
+
+padding:20px;
+}
+
+.card h3 {
+    font-family: "Bodoni Moda SC", serif;
+    font-optical-sizing: auto;
+    font-style:oblique;
+    color: #194d34;
+    padding: 20px;
+    margin-bottom:0;
+    margin-top:0;
+}
+.card ul {
+    margin-top: 5px;
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding:20px;
+}
+/* Contact Page Styles */
+.one-col {
+
+padding: 20px;
+}
+
+.form-area {
+display:grid;
+grid-template-rows: repeat(4, 1fr);
+}
+form {
+    
+}
+
+form input, form textarea {
+border: 2px solid black;
+border-radius: 4px; 
+padding: 20px;
+margin:10px;
+width:100vh;
+
+}
+
+form input:focus, form textarea:focus {
+border: 3px solid black;
+}
+
+form button {
+    margin-top: 5px;
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+    height:40px;
+
+    
+}
+
+form button:hover {
+    color:purple;
+}
+
+.thanks  {
+    background-color: antiquewhite;
+    display:grid;
+    justify-content: center;
+    align-items:center;   
+    width: 100%; 
+    height:100%;
+}
+
+.thanks a {
+align-items: center;
+justify-self: center;
+}
+.thanks a:hover  {
+color:red;
+}
+
