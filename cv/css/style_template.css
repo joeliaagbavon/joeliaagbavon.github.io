@@ -66,8 +66,8 @@ footer a:hover {
 
 .splash img {
    flex-shrink:0;
-   width: 130px;
-   height:130px;
+   width: 150px;
+   height:150px;
     border-radius: 50%;
     border:2px solid #cce09e;
     overflow: hidden;
